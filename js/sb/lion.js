@@ -1,3 +1,4 @@
+/*<![CDATA[*/
 (function () {
   var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
   if (window.ShopifyBuy) {
@@ -18,13 +19,13 @@
   }
   function ShopifyBuyInit() {
     var client = ShopifyBuy.buildClient({
-      domain: 'sacred-buddha-temple.myshopify.com',
-      storefrontAccessToken: '4fa97f121237f31f9a35397188fb574d',
+      domain: 'infinity-rentals.myshopify.com',
+      storefrontAccessToken: 'fdad6de4b8f752607a76b0cbd005a786',
     });
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: '4363796250682',
-        node: document.getElementById('product-component-1576408957856'),
+        id: '4529156161580',
+        node: document.getElementById('product-component-1581374867948'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -38,12 +39,14 @@
       },
       "button": {
         ":hover": {
-          "background-color": "#d96100"
+          "background-color": "#d97402"
         },
-        "background-color": "#f16c00",
+        "background-color": "#f18102",
         ":focus": {
-          "background-color": "#d96100"
-        }
+          "background-color": "#d97402"
+        },
+        "padding-left": "42px",
+        "padding-right": "42px"
       }
     },
     "contents": {
@@ -81,12 +84,14 @@
       },
       "button": {
         ":hover": {
-          "background-color": "#d96100"
+          "background-color": "#d97402"
         },
-        "background-color": "#f16c00",
+        "background-color": "#f18102",
         ":focus": {
-          "background-color": "#d96100"
-        }
+          "background-color": "#d97402"
+        },
+        "padding-left": "42px",
+        "padding-right": "42px"
       }
     },
     "text": {
@@ -97,15 +102,16 @@
     "styles": {
       "button": {
         ":hover": {
-          "background-color": "#d96100"
+          "background-color": "#d97402"
         },
-        "background-color": "#f16c00",
+        "background-color": "#f18102",
         ":focus": {
-          "background-color": "#d96100"
+          "background-color": "#d97402"
         }
       }
     },
     "text": {
+      "title": "Shopping Cart",
       "total": "Subtotal",
       "button": "Checkout"
     }
@@ -113,12 +119,12 @@
   "toggle": {
     "styles": {
       "toggle": {
-        "background-color": "#f16c00",
+        "background-color": "#f18102",
         ":hover": {
-          "background-color": "#d96100"
+          "background-color": "#d97402"
         },
         ":focus": {
-          "background-color": "#d96100"
+          "background-color": "#d97402"
         }
       }
     }
@@ -128,3 +134,4 @@
     });
   }
 })();
+/*]]>*/

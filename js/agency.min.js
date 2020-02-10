@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Sacred v5.2.1 ()
- * Copyright 2013-2019 Kevin Stamps
+ * Copyright 2013-2020 Kevin Stamps
  * Licensed under MIT (https://github.com/BlackrockDigital/sacred-buddha-temple/blob/master/LICENSE)
  */
 
